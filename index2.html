@@ -10,16 +10,15 @@
 
 <body>
     <h1>Simple Chess Using Javascript</h1>
-    <div>
-        <button id="chess960">Chess960</button>
-        <button id="regular">Regular</button>
-    </div>
-    
+    <div id="gameboard" ></div>
+    <div class="bars">
+        <p class="turnbar">It Is <span id="player"></span>'s Turn.</p>
+        <p class="infobar" id="info-display"></p>
+        <p class="errbar" id="err"></p>
     </div>
 
-    <script src="game_type.js"></script>
-    <script src="app.js"></script>
-
+    <script src="pieces.js"></script>
+    <script src="chess960.js"></script>
 </body>
 
 </html>
